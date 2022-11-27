@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Learn Kannada</title>
+    <style>
+        #name1{
+            margin-top:70vh;
+            margin-left:36vw;
+            position: absolute;
+            border-width: 5px;
+            border-color: black;
+        }
+        #button1{
+            margin-left: 150px;
+            width: 100px;
+            height: 40px;
+            transition-duration: 0.4s;
+        }
+        #button1:hover{
+            background-color: #4CAF50; /* Green */
+            color: white;
+            }
+        #label{
+            margin-left: 30px;
+        }
+        body{
+            background-image: linear-gradient(yellow,red);
+            height:100vh;
+        }
+        a:link,a:visited,a:hover,a:active,#high,#home{
+        color: white}
+        #flexing{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        #login{
+        width:500px;
+        }
+        #name{
+        border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" >Learn Kannada</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="home" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id='high' href="highscore">High Scores</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="flexing">
+    <div id="login"><centre>
+        <form action="quest" method="get" >
+            <div id="name1">
+                <label for="name" id="label"><b>Enter your Name :</b></label>
+            <input type="text" placeholder="Your Name" name="name" id="name" ></input>
+            <br><br>
+            <input type="submit" placeholder="Start" value="Start" id="button1" ></input>
+            </div>
+        </form>
+    </centre>
+    </div>
+    <div id="image">
+        <img src="https://d1fdloi71mui9q.cloudfront.net/EcJF5MqKSgK06d4VHLGh_1VOlBH6VFmBoFI2Z" alt="hello"/>
+    </div>
+    </div>
+</body>
+</html>
